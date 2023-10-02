@@ -1,0 +1,59 @@
+\begin{table}
+    \centering
+
+\begin{tabular}{ |c|c|c|c|c| } 
+ \hline
+ \multirow{2}{*}{Inference Step} & \multicolumn{3}{|c|}{FID Score}  \\
+ \cline{2-4}
+                    & Oxford Flower & Smithsonian Butterfly & Anime Face  \\  
+ \hline
+
+ 100 & 369.88 & 464.27 & 313.47 \\
+ \hline
+ 200 & 208.77 & 414.54 & 270.74 \\
+ \hline
+ 300 & 176.46 & 436.99 & 229.2 \\
+ \hline
+ 400 & 150.36 & 371.72 & 119.72 \\
+ \hline
+ 500 & 125.77 & 349.58 & 100.96 \\
+ \hline
+ 600 & 116.52 & 325.88 & 95.55 \\
+ \hline
+ 700 & 117.46 & 316.48 & 96.32 \\
+ \hline
+ 800 & 122.95 & 317.76 & 96.5 \\
+ \hline
+ 900 & 133.55 & 314.49 & 109.64 \\
+ \hline
+ 1000 & 142.56 & 313.22 & 114.22 \\
+ \hline
+ 1100 & 146.5 & 319.56 & 114.29 \\
+ \hline
+ 1200 & 141.07 & 316.08 & 115.73 \\
+ \hline
+ 1300 & 127.79 & 314.74 & 107.03 \\
+ \hline
+ 1400 & 140.6 & 314.38 & 117.4 \\
+ \hline
+ 1500 & 132.09 & 314.96 & 111.05 \\
+ \hline
+ 1600 & 145.1 & 315.84 & 113.85 \\
+ \hline
+ 1700 & 139.23 & 308.78 & 117.6 \\
+ \hline
+ 1800 & 134.86 & 315.87 & 111.06 \\
+ \hline
+ 1900 & 139.89 & 309.66 & 118.8 \\
+ \hline
+ 2000 & 144.07 & 321.56 & 109.04 \\
+ \hline
+ 
+
+
+\end{tabular}
+
+    \caption{On three different datasets, we used varying numbers of noise additions to calculate the FID score for the diffusion model.}
+    % 扩散模型在3个不同数据集上采用不同的添加噪音次数所计算出来的fid score.
+    \label{table:fid_three_dataset}
+\end{table}

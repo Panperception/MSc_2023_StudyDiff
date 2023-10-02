@@ -1,0 +1,10 @@
+{
+    "editor.wordWrap": "on",
+    "python.analysis.typeCheckingMode": "off",
+    "latex-workshop.latex.autoBuild.run": "never",
+    "latex-workshop.view.pdf.invertMode.enabled": "always",
+    "latex-workshop.view.pdf.invert": 0.99,
+    "notebook.output.scrolling": true,
+    "workbench.list.horizontalScrolling": true,
+    "latex-workshop.texcount.autorun": "onSave",
+}

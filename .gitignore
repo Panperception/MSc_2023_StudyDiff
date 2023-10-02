@@ -1,0 +1,13 @@
+__pycache__
+
+lightning_logs
+
+*.pt
+
+wandb
+
+ddpm-butterflies*
+
+dissertation/main.*
+!dissertation/main.tex
+!dissertation/main.pdf
